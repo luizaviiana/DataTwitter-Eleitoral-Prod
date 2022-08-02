@@ -6,7 +6,7 @@ image = Image.open("analise.jpg")
 st.image(image)
 
 st.title('Data Twitter Eleitoral')
-st.text('Aplização que realiza análise de sentimentos dos candidatos à presidência usando dados do Twitter')
+st.text('Aplicação que realiza análise de sentimentos dos candidatos à presidência usando dados do Twitter')
 
 df = pd.read_csv("etapa4_dataframe_final.csv")
 
